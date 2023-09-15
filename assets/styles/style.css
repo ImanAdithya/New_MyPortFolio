@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: K2D;
+}
+/*body{*/
+/*    overflow: hidden;*/
+/*}*/
+
+.home{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/assets/images/mainBackGround.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#logo{
+    color: white;
+    font-family: K2D;
+}
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.12rem;
+    opacity: .8;
+    position: relative;
+}
+nav ul li a:hover{
+    color: red;
+    transition: all 1s;
+}
+nav ul li a:after{
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: red;
+    height: 2.5px;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+
+#logoBtn{
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: transparent;
+    height: 4.5vh;
+    width: 8.5vw;
+    color: white;
+    font-size: 1em;
+    border-radius: 0.5rem;
+}
+
+#logoBtn:hover{
+    color: white;
+    background-color: #f9004d;
+    border:#f9004d ;
+}
+
+.background{
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0px;
+    z-index:0;
+}
+
+#word{
+    position: absolute;
+    color: #f9004d;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 3.6vh;
+    width: max-content;
+    height: max-content;
+    display: flex;
+}
+
+#typing{
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 6s forwards;
+    left: 2vh;
+    position: relative;
+    -webkit-text-stroke: 1px #f9004d;
+}
+
+section:nth-child(1)>div:nth-child(3){
+    position: absolute;
+    color: #f9004d;
+    top: 18%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 3vh;
+    width: max-content;
+    height: max-content;
+}
+section:nth-child(1)>div:nth-child(3)>button{
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: transparent;
+    height: 4.5vh;
+    width: 10vw;
+    color: white;
+    font-size: 0.5em;
+    border-radius: 0.5rem;
+}
+section:nth-child(1)>div:nth-child(3)>button:hover{
+    background-color: #f9004d;
+    border: none;
+}
+section:nth-child(1)>div:nth-child(3):hover{
+    left: 6px;
+}
+
+section:nth-child(2){
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid red;
+}

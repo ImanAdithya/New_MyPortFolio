@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e8bf10ea-f2b9-443c-9291-6813c04e1da0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/mainBackGround.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scripts/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scripts/particles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scripts/particles.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scripts/particles.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scripts/stats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scripts/typing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,11 +26,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2VHURaGdAAAsO3QBVpAlWPQsC0r" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -25,19 +43,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/imanadithya/Software Engineering/IJSE/PROJECTS/MyPortfolio_2/assets/scripts&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/scripts" />
+      <recent name="$PROJECT_DIR$/assets/scripts/particle" />
+      <recent name="$PROJECT_DIR$/assets/styles" />
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,7 +75,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694492494568</updated>
-      <workItem from="1694492497964" duration="376000" />
+      <workItem from="1694492497964" duration="13039000" />
+      <workItem from="1694658449104" duration="1566000" />
+      <workItem from="1694751029858" duration="3695000" />
     </task>
     <servers />
   </component>
