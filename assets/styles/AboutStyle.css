@@ -1,0 +1,97 @@
+section:nth-child(2){
+    width: 100vw;
+    height: 100vh;
+    padding-right: 10vw;
+    padding-left: 15vw;
+    display: flex;
+   justify-content: flex-start;
+    flex-direction: column;
+}
+
+section:nth-child(2)>article:nth-child(1){
+    width: 70vw;
+    height:34vh;
+    position: relative;
+    top: 3vw;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+}
+
+section:nth-child(2)>article:nth-child(2){
+    width: 70vw;
+    position: relative;
+    top: 4vw;
+    border: 1px solid red;
+}
+
+section:nth-child(2)>article:nth-child(1)>div:nth-child(1){
+    width:40vw ;
+    height: 50vh;
+    padding: 1vw;
+}
+
+section:nth-child(2)>article:nth-child(1)>div:nth-child(1)>div:nth-child(3){
+    height: 4vh;
+    width: 10vw;
+    position: relative;
+    top: 2.4vw;
+}
+#btnAbout{
+    cursor: pointer;
+    height: 4vh;
+    width: 10vw;
+    color: white;
+    border: none;
+    font-size: 1.1vw;
+    border-radius: 0.5rem;
+    background-color: #7081b9;
+}
+#para1{
+    position: relative;
+    top: 1.5vw;
+    font-size: 0.9vw;
+}
+section:nth-child(2)>article:nth-child(1)>div:nth-child(2){
+    width:30vw ;
+    height: 50vh;
+    padding: 1vw;
+}
+
+section:nth-child(2)>article:nth-child(1)>div:nth-child(2)>div{
+    width: 25vw;
+    padding: 1vw;
+    top: 3vw;
+    left: 4vw;
+    position: relative;
+}
+
+section:nth-child(2)>article:nth-child(1)>div:nth-child(2)>div span{
+    color: #7081b9;
+}
+section:nth-child(2)>article:nth-child(1)>div:nth-child(2)>div p{
+    font-weight: bold;
+}
+
+section:nth-child(2)>article:nth-child(1)>div:nth-child(2)>div>div{
+    padding: 0.5vw;
+}
+
+#outerBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+/*    center*/
+}
+
+.box{
+    width: 210px;
+    height:62px;
+    border: 1px solid green;
+    margin: 0.5vw;
+}
+
+.profile{
+    font-size: 0.9vw;
+}

@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8bf10ea-f2b9-443c-9291-6813c04e1da0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/mainBackGround.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scripts/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scripts/particles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scripts/particles.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scripts/particles.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scripts/stats.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scripts/typing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/aboutP.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +31,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2VHURaGdAAAsO3QBVpAlWPQsC0r" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,7 +46,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/imanadithya/Software Engineering/IJSE/PROJECTS/MyPortfolio_2/assets/scripts&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/imanadithya/Software Engineering/IJSE/PROJECTS/MyPortfolio_2/assets/images&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -60,10 +58,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/assets/scripts" />
       <recent name="$PROJECT_DIR$/assets/scripts/particle" />
       <recent name="$PROJECT_DIR$/assets/styles" />
-      <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
@@ -77,7 +75,14 @@
       <updated>1694492494568</updated>
       <workItem from="1694492497964" duration="13039000" />
       <workItem from="1694658449104" duration="1566000" />
-      <workItem from="1694751029858" duration="3695000" />
+      <workItem from="1694751029858" duration="7441000" />
+      <workItem from="1695007337534" duration="134000" />
+      <workItem from="1695117555931" duration="96000" />
+      <workItem from="1697380102175" duration="745000" />
+      <workItem from="1697390149076" duration="631000" />
+      <workItem from="1697472531571" duration="11000" />
+      <workItem from="1699468811743" duration="518000" />
+      <workItem from="1699803331277" duration="602000" />
     </task>
     <servers />
   </component>

@@ -115,7 +115,7 @@ nav ul li a:hover:after{
     animation: typing 6s forwards;
     left: 2vh;
     position: relative;
-    -webkit-text-stroke: 1px #f9004d;
+   /* -webkit-text-stroke: 1px #f9004d;*/
 }
 
 section:nth-child(1)>div:nth-child(3){
@@ -148,8 +148,4 @@ section:nth-child(1)>div:nth-child(3):hover{
     left: 6px;
 }
 
-section:nth-child(2){
-    width: 100vw;
-    height: 100vh;
-    border: 1px solid red;
-}
+

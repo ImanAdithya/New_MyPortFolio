@@ -1,0 +1,65 @@
+section:nth-child(3){
+    margin: 0;
+    width: 100vw;
+    height: 83vh;
+    background-color: rgba(37,88,171,.05);
+}
+
+section:nth-child(3)>div:nth-child(1)>p:nth-child(1){
+    opacity: .4;
+   font-size: 0.9vw;
+    font-weight: bold;
+}
+section:nth-child(3)>div:nth-child(1)>p:nth-child(2){
+    font-size: 2.1vw;
+    font-weight: bold;
+}
+section:nth-child(3)>div:nth-child(1){
+    text-align: center;
+    padding: 1vw;
+}
+
+section:nth-child(3)>article{
+    width: 70vw;
+    position: relative;
+    top: 5vw;
+    left: 15vw;
+    display: grid;
+    grid-template-rows: repeat(2,245px);
+    /*grid-template-columns: 1fr 1fr 1fr  ;*/
+    grid-template-columns: repeat(3,calc(66vw/3));
+    /*grid-template-rows: 1fr 1fr;*/
+    grid-gap: 17px;/*grid-row-gap: 2px;*/
+}
+section:nth-child(3)>article>div{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius:1.1vw;
+    background-color: white;
+    padding-left: 2vw;
+    padding-right: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.iconDiv{
+    width: 3vw;
+    height: 5vh;
+    border-radius: 0.5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.servicePara{
+    opacity: 0.5;
+    position: relative;
+    bottom: 1.6vw;
+}
+.serviceHeading{
+    position: relative;
+    bottom: 0.7vw;
+}
