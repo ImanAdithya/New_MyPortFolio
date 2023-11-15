@@ -3,6 +3,7 @@ section:nth-child(3){
     width: 100vw;
     height: 83vh;
     background-color: rgba(37,88,171,.05);
+
 }
 
 section:nth-child(3)>div:nth-child(1)>p:nth-child(1){
@@ -58,8 +59,10 @@ section:nth-child(3)>article>div{
     opacity: 0.5;
     position: relative;
     bottom: 1.6vw;
+    font-size: 0.9vw;
 }
 .serviceHeading{
     position: relative;
     bottom: 0.7vw;
+    font-size: 1.3vw;
 }

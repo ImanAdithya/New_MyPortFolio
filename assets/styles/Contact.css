@@ -1,0 +1,114 @@
+
+section:nth-child(7){
+    width: 100vw;
+    height: 60vh;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    margin: 0;
+}
+
+section:nth-child(7)>div:nth-child(1){
+    width: 26vw;
+}
+section:nth-child(7)>div:nth-child(1)>h1,span {
+   font-size: 1.9vw;
+   margin-bottom: 0.7vw;
+
+}
+section:nth-child(7)>div:nth-child(1)>p {
+    opacity: 0.5;
+}
+
+section:nth-child(7)>article{
+    position: relative;
+    top: 2vw;
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+}
+
+section:nth-child(7)>article>div:nth-child(2){
+    width: 50vw;
+}
+#contactForm{
+    padding-left: 2vw;
+}
+
+#contactForm div{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5vw;
+}
+
+#contactForm>div:nth-child(1) input{
+    height: 2vw;
+    width: 16vw;
+    opacity: 0.5;
+    background-color: white;
+    padding: 12px 8px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    cursor: text;
+}
+
+#contactForm>div:nth-child(1) input:nth-child(2){
+    margin-left: 2vw;
+}
+
+#contactForm>div:nth-child(2) textarea{
+    width: 34.3vw;
+    opacity: 0.5;
+    height: 10vw;
+    padding: 12px 20px;
+}
+
+#contactForm>div:nth-child(3) button{
+    width:10vw;
+    height: 2.2vw;
+    border: none;
+    border-radius: 7px;
+    background-color:#7963e0 ;
+    color: white;
+    margin-top: -1.3vw;
+}
+
+section:nth-child(7)>article>div:nth-child(1){
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+section:nth-child(7)>article>div:nth-child(1)>div{
+    height: 6vw;
+    padding-top: 1vw;
+
+}
+.contactDetail{
+    display: flex;
+    flex-direction: row;
+}
+.contactDetail>div:nth-child(1){
+    border: 1.5px solid rgb(0, 0, 0,0.2);
+    border-radius: 100%;
+    width: 4vw;
+    height: 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactDetail>div:nth-child(2){
+    margin-left: 1vw;margin-top: 0.6vw;
+
+}
+.contactDetail p{
+    opacity: 0.5;
+}
+.contactDetail h3{
+    opacity: 0.6;
+}
+
+.contactDetail img{
+    opacity: 0.5;
+}

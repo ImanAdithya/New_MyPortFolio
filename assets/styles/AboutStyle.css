@@ -37,13 +37,13 @@ section:nth-child(2)>article:nth-child(1)>div:nth-child(1)>div:nth-child(3){
 }
 #btnAbout{
     cursor: pointer;
-    height: 4vh;
-    width: 10vw;
+    height: 3.5vh;
+    width: 8vw;
     color: white;
     border: none;
-    font-size: 1.1vw;
+    font-size: 1vw;
     border-radius: 0.5rem;
-    background-color: #7081b9;
+    background-color: #7963e0;
 }
 #para1{
     position: relative;

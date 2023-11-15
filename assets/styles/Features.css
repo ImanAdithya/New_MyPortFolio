@@ -1,0 +1,90 @@
+section:nth-child(6){
+    width: 100vw;
+    height: 90vh;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+section:nth-child(6)>div:nth-child(1){
+    width: 48vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section:nth-child(6)>div:nth-child(1)>div{
+    width: 17vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section:nth-child(6)>div:nth-child(1)>div>div{
+   height: 12vw;
+
+}
+section:nth-child(6)>div:nth-child(1)>div:nth-child(2){
+   position: relative;
+    top: 13vw;
+}
+
+.featureBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1.5vw;
+
+}
+.featureBox p{
+   text-align: center;
+    margin-top: 0.5vw;
+    opacity: 0.5;
+    font-size: 0.9vw;
+}
+
+.featureBox h3{
+    margin-top: 1.5vw;
+    font-size: 1.13vw;
+}
+.featureImgDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section:nth-child(6)>article{
+    width: 38vw;
+    height: 63vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4vw;
+}
+
+section:nth-child(6)>article>div:nth-child(1)>button{
+    width: 8vw;
+    height: 2.1vw;
+    border:none;
+    text-align: center;
+    background-color: rgba(127,115,255,.1);
+    color: #896eff;
+    border-radius: 7px;
+
+}
+
+section:nth-child(6)>article>div:nth-child(2)>h1{
+  font-size: 2vw;
+}
+section:nth-child(6)>article>div:nth-child(3)>p{
+    opacity: 0.6;
+    font-size: 0.9vw;
+}
+section:nth-child(6)>article>div:nth-child(2)>h1>span{
+    font-size: 2vw;
+    color: #7963e0;
+}
