@@ -11,7 +11,7 @@
 .home{
     height: 100vh;
     width: 100vw;
-    background-image: url("/assets/images/mainBackGround.jpg");
+    background-image: url("assets/images/mainBackGround.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
