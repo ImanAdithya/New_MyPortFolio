@@ -30,6 +30,7 @@ nav{
 #logo{
     color: white;
     font-family: K2D;
+    font-size: 1.8vw;
 }
 @keyframes caret {
     50% {
@@ -45,7 +46,7 @@ nav ul li{
 nav ul li a{
     color: white;
     text-decoration: none;
-    font-size: 1.12rem;
+    font-size: 1.1vw;
     opacity: .8;
     position: relative;
 }
@@ -73,11 +74,11 @@ nav ul li a:hover:after{
     cursor: pointer;
     border: 1px solid white;
     background-color: transparent;
-    height: 4.5vh;
+    height: 2.5vw;
     width: 8.5vw;
     color: white;
-    font-size: 1em;
-    border-radius: 0.5rem;
+    font-size: 1vw;
+    border-radius: 0.5vw;
 }
 
 #logoBtn:hover{
@@ -102,7 +103,7 @@ nav ul li a:hover:after{
     left: 0;
     bottom: 0;
     margin: auto;
-    font-size: 3.6vh;
+    font-size: 1.8vw;
     width: max-content;
     height: max-content;
     display: flex;
@@ -113,7 +114,7 @@ nav ul li a:hover:after{
     overflow: hidden;
     white-space: nowrap;
     animation: typing 6s forwards;
-    left: 2vh;
+    left: 1.6vw;
     position: relative;
    /* -webkit-text-stroke: 1px #f9004d;*/
 }
@@ -137,8 +138,8 @@ section:nth-child(1)>div:nth-child(3)>button{
     height: 4.5vh;
     width: 10vw;
     color: white;
-    font-size: 0.5em;
-    border-radius: 0.5rem;
+    font-size: 1vw;
+    border-radius: 0.5vw;
 }
 section:nth-child(1)>div:nth-child(3)>button:hover{
     background-color: #f9004d;
