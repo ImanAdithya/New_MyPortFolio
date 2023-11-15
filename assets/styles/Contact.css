@@ -17,6 +17,7 @@ section:nth-child(7)>div:nth-child(1)>h1,span {
 }
 section:nth-child(7)>div:nth-child(1)>p {
     opacity: 0.5;
+    font-size: 1vw;
 }
 
 section:nth-child(7)>article{
@@ -70,6 +71,7 @@ section:nth-child(7)>article>div:nth-child(2){
     background-color:#7963e0 ;
     color: white;
     margin-top: -1.3vw;
+    font-size: 1vw;
 }
 
 section:nth-child(7)>article>div:nth-child(1){
@@ -104,9 +106,11 @@ section:nth-child(7)>article>div:nth-child(1)>div{
 }
 .contactDetail p{
     opacity: 0.5;
+    font-size: 1vw;
 }
 .contactDetail h3{
     opacity: 0.6;
+    font-size: 1.1vw;
 }
 
 .contactDetail img{

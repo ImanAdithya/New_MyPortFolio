@@ -48,7 +48,7 @@ section:nth-child(2)>article:nth-child(1)>div:nth-child(1)>div:nth-child(3){
 #para1{
     position: relative;
     top: 1.5vw;
-    font-size: 0.9vw;
+    font-size: 1vw;
 }
 section:nth-child(2)>article:nth-child(1)>div:nth-child(2){
     width:30vw ;
@@ -87,8 +87,9 @@ section:nth-child(2)>article:nth-child(1)>div:nth-child(2)>div>div{
     display: flex;
     flex-direction: row;
     padding: 0.5vw;
-    width: 213px;
-    height:65px;
+    /*width: 213px;*/
+    width: 13vw;
+    height:3.8vw;
     margin: 0.5vw;
     border-radius: 5px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -112,4 +113,7 @@ section:nth-child(2)>article:nth-child(1)>div:nth-child(2)>div>div{
 }
 .profile{
     font-size: 0.9vw;
+}
+.box h4{
+    font-size: 1vw;
 }

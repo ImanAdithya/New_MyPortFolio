@@ -1,7 +1,7 @@
 section:nth-child(3){
     margin: 0;
     width: 100vw;
-    height: 83vh;
+    height: 87vh;
     background-color: rgba(37,88,171,.05);
 
 }
@@ -26,7 +26,7 @@ section:nth-child(3)>article{
     top: 5vw;
     left: 15vw;
     display: grid;
-    grid-template-rows: repeat(2,245px);
+    grid-template-rows: repeat(2,16vw);
     /*grid-template-columns: 1fr 1fr 1fr  ;*/
     grid-template-columns: repeat(3,calc(66vw/3));
     /*grid-template-rows: 1fr 1fr;*/
@@ -46,7 +46,7 @@ section:nth-child(3)>article>div{
 
 .iconDiv{
     width: 3vw;
-    height: 5vh;
+    height: 3vw;
     border-radius: 0.5vw;
     display: flex;
     flex-direction: row;
