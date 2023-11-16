@@ -1,0 +1,107 @@
+@media all and (max-width:425px ) and (min-width:375px ){
+
+    /*Home Media Query*/
+    .home{
+        height: 40vh;
+    }
+    nav ul{
+       display: none;
+    }
+    #logo{
+        font-size: 4.5vw;
+    }
+    #word{
+        font-size: 3vw;
+    }
+    section:nth-child(1)>div:nth-child(3)>button{
+        height: 2.5vh;
+        width: 17vw;
+        font-size: 1.8vw;
+    }
+
+    /*About Me Media Query*/
+    section:nth-child(2){
+        height: 32vh;
+    }
+    #outerBox{
+        display: none;
+    }
+    section:nth-child(2)>article:nth-child(1){
+        width: 70vw;
+        height:25vh;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    section:nth-child(2)>article:nth-child(2){
+        width: 30vw;
+        position: relative;
+        top: 6vw;
+    }
+    section:nth-child(2)>article:nth-child(1)>div:nth-child(1) {
+        width: 70vw;
+        height: 20vh;
+    }
+    section:nth-child(2)>article:nth-child(1)>div:nth-child(2) {
+        width: 45vw;
+        height: 10vh;
+    }
+    #para1{
+        top: 1.5vw;
+        font-size: 2.2vw;
+        text-align: center;
+    }
+    #btnAbout{
+        display: none;
+    }
+    section:nth-child(2)>article:nth-child(1)>div:nth-child(2)>div span{
+       font-size: 2.2vw;
+    }
+    section:nth-child(2)>article:nth-child(1)>div:nth-child(2)>div p{
+        font-size: 2.2vw;
+    }
+    section:nth-child(2)>article:nth-child(1)>div:nth-child(2)>div {
+        width: 48vw;
+        top: -1vw;
+    }
+    section:nth-child(2)>article:nth-child(1)>div:nth-child(1)>div:nth-child(1) {
+        position: relative;
+        left: 25vw;
+    }
+   .aboutHead1{
+       font-size: 5vw!important;
+   }
+
+    /*Service Heading*/
+    section:nth-child(3)>div:nth-child(1)>p:nth-child(1){
+        font-size: 1.8vw;
+
+    }
+    section:nth-child(3)>div:nth-child(1)>p:nth-child(2){
+        font-size: 3.5vw;
+    }
+    section:nth-child(3)>div:nth-child(1) span{
+        font-size: 3.5vw !important;
+    }
+    section:nth-child(3)>article{
+        grid-template-rows: repeat(6,12.5vw);
+        grid-template-columns: repeat(1,calc(200vw/3));
+        grid-gap: 11px;
+        top: 4vw;
+    }
+    .servicePara{
+        font-size: 1.6vw;
+       text-space: 5px;
+    }
+    .serviceHeading{
+        font-size: 1.8vw;
+        text-space: 5px;
+    }
+
+
+
+
+
+
+}

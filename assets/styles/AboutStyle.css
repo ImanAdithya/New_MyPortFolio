@@ -1,6 +1,6 @@
 section:nth-child(2){
     width: 100vw;
-    height: 80vh;
+    height: 85vh;
     padding-right: 10vw;
     padding-left: 15vw;
     display: flex;
@@ -88,7 +88,7 @@ section:nth-child(2)>article:nth-child(1)>div:nth-child(2)>div>div{
     flex-direction: row;
     padding: 0.5vw;
     /*width: 213px;*/
-    width: 13vw;
+    width: 218px;
     height:3.8vw;
     margin: 0.5vw;
     border-radius: 5px;

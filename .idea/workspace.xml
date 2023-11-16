@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8bf10ea-f2b9-443c-9291-6813c04e1da0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/service/pic_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/service/pic_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/service/pic_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/service/pic_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/service/pic_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/service/pic_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/mediaQuery/Laptop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/mediaQuery/Laptop_Large.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/mediaQuery/Mobile_Large.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/mediaQuery/Tablet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/AboutStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/AboutStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/Contact.css" afterDir="false" />
@@ -94,6 +92,8 @@
       <workItem from="1699964201678" duration="16798000" />
       <workItem from="1700053069456" duration="3095000" />
       <workItem from="1700061652470" duration="4449000" />
+      <workItem from="1700068919553" duration="1074000" />
+      <workItem from="1700102405134" duration="8145000" />
     </task>
     <servers />
   </component>

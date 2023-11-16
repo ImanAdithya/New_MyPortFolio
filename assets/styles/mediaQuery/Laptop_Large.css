@@ -1,0 +1,45 @@
+@media all and (max-width: 1440px) and (min-width: 1024px) {
+
+    /*Home Media Query*/
+    section:nth-child(1)>div:nth-child(3)>button{
+        height: 3.8vh;
+        width: 12vw;
+    }
+
+    /*About Me Media Query*/
+    section:nth-child(2){
+        height:70vh;
+    }
+    section:nth-child(2)>article:nth-child(2){
+        top: 0;
+    }
+
+    /*Service Media Query */
+    section:nth-child(3){
+        height: 67vh;
+    }
+
+    /*Project Media Query */
+    section:nth-child(5){
+        height: 77vh;
+    }
+
+    /*Feature Media Query*/
+    section:nth-child(6){
+        height: 80vh;
+    }
+
+    /*Contact Media Query*/
+    section:nth-child(7){
+        height: 45vh;
+    }
+    section:nth-child(7)>article>div:nth-child(1){
+        justify-content: center;
+        position: relative;
+
+    }
+    section:nth-child(7)>article{
+        height: 30vh;
+    }
+    
+}

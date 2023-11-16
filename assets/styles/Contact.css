@@ -50,6 +50,7 @@ section:nth-child(7)>article>div:nth-child(2){
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     cursor: text;
+    font-size: 1vw;
 }
 
 #contactForm>div:nth-child(1) input:nth-child(2){
@@ -61,6 +62,7 @@ section:nth-child(7)>article>div:nth-child(2){
     opacity: 0.5;
     height: 10vw;
     padding: 12px 20px;
+    font-size: 1vw;
 }
 
 #contactForm>div:nth-child(3) button{

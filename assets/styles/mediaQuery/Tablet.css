@@ -1,0 +1,63 @@
+@media all and (max-width:768px ) and (min-width:425px ) {
+
+    /*Home Media Query*/
+    .home{
+        height: 55vh;
+    }
+    nav ul li{
+        padding: 10px 7px;
+    }
+    section:nth-child(1)>div:nth-child(3)>button{
+        height: 2.8vh;
+        width: 10vw;
+    }
+
+    /*About me Media Query*/
+    section:nth-child(2){
+        height:54vh;
+    }
+    section:nth-child(2)>article:nth-child(2){
+        top: -10vw;
+    }
+    .box{
+        height:4.4vw;
+    }
+
+    /*Service Media Query*/
+    section:nth-child(3){
+        height: 53vh;
+    }
+
+    /*Project Media Query*/
+    section:nth-child(5){
+        height: 55vh;
+    }
+    section:nth-child(5)>article:nth-child(2)>div:nth-child(2)>div img{
+        height: 30vw;
+    }
+
+    /*Feature Media Query*/
+    section:nth-child(6){
+        height: 68vh;
+    }
+    section:nth-child(6)>div:nth-child(1)>div:nth-child(2){
+        top: 10vw;
+    }
+    section:nth-child(6)>div:nth-child(1)>div{
+        justify-content: space-around;
+    }
+
+    /*contact Media Query*/
+    section:nth-child(7){
+        height: 30vh;
+    }
+    section:nth-child(7)>article>div:nth-child(1){
+        justify-content: center;
+        position: relative;
+        top: -3vw;
+    }
+    section:nth-child(7)>article{
+        height: 28vh;
+    }
+
+}
