@@ -74,6 +74,9 @@
    }
 
     /*Service Media Query*/
+    section:nth-child(3){
+        height: 58vh;
+    }
     section:nth-child(3)>div:nth-child(1)>p:nth-child(1){
         font-size: 1.8vw;
 
